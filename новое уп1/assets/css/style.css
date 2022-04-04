@@ -1,0 +1,99 @@
+@font-face{
+    font-family: "Poppins";
+    src: url("../font/Poppins-Regular.ttf") format(truetype);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Palatino Linotype";
+    src: url("//font/palatinolinotype_bold.ttf") format(truetype);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Georgia";
+    src: url("../font/georgia_bolditalic.ttf") format(truetype);
+    font-style: normal;
+    font-weight: 400;
+}
+.body{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 1200px;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.nav {
+    height: 60px;
+    /* width: 802px; */
+    margin-left: 252px;
+}
+.main_menu{
+    display: flex;
+    margin-top: 5px;
+    list-style: none;
+    color: #444444;
+}
+.menu_link{
+    margin: 12px 28px 0 13px;
+}
+.menu_link a{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #353732;
+    text-decoration: none;
+}
+.intro{
+    padding: 100px 0 110px 0;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.intro_wrapper{
+    display: block;
+}
+.intro_wrapper img{
+    width: 94px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+.intro_text{
+    font-family: 'Palatino Linotype';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+
+color: #353732;
+}
+.section1{
+    padding: 100px 0 100.25px 0;
+    background-color: #FAFAFA;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
